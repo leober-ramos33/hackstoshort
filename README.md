@@ -1,7 +1,7 @@
 <p align="center">
     <img
         alt="Hackstoshort"
-        src="https://hackstore.net/wp-content/uploads/2020/06/cropped-hackstore.net_-2-192x192.png"
+        src="https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/logo.png"
     />
 </p>
 
@@ -10,12 +10,15 @@ Esta es una extensión hecha para saltar los anuncios que se encuentran en los e
 ## ¿Cómo usarlo?
 
 Solo debes de abrir un enlace de descarga en el que quieras saltar la publicidad:
+
 ![Hackstore.net links](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackstore.net-links.png)
 
 Esto te llevara a un sitio que tenga por dominio: `hackshort.me` y lucira como este:
+
 ![Hackshort.me](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackshort.me.png)
 
 Haz click sobre la extensión y te generara el enlace directo de la descarga:
+
 ![Enlace generado](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/link-generated.png)
 
 ## Pirateria
