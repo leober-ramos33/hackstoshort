@@ -32,7 +32,7 @@ Desde ya me abstengo de cualquier uso que se le de a esta extensión, no intento
 -   [Jest](https://jestjs.io/)
 -   [GibberishAES](https://github.com/mdp/gibberish-aes)
 
-### Compilación
+## Compilación
 
 Para compilar este proyecto necesitas tener una copia de este (ya sea con Git o descargando el tarball/zipball), luego ejecutar el siguiente comando para instalar las dependencias:
 
@@ -46,7 +46,7 @@ Luego para hacer una compilación hecha para producción puedes ejecutar:
 npm run build
 ```
 
-### Desarrollo
+## Desarrollo
 
 En caso de que quieras desarrollar para el proyecto, puedes utilizar el siguiente comando para que cada cambio que hagas en el código se compile automáticamente:
 
@@ -60,6 +60,6 @@ Si quieres testear la aplicación puedes ejecutar esto:
 npm run test
 ```
 
-### Licencia
+## Licencia
 
 Este proyecto esta bajo los términos de la licencia de [MIT](https://github.com/yonaikerlol/hackstoshort/blob/master/LICENSE).
