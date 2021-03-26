@@ -29,5 +29,13 @@
         "default_popup": "popup.html"
     },
 
+    "minimum_chrome_version": "74",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "hackstoshort@yonaikerlol.github.io",
+            "strict_min_version": "67.0"
+        }
+    },
+
     "permissions": ["activeTab"]
 }
