@@ -1,0 +1,30 @@
+{
+    "extensionInfo": {
+        "message": "Generate <strong>direct links</strong> to the downloads",
+        "description": "Extension information"
+    },
+    "currentTabIsNotValid": {
+        "message": "Current tab is not a Hackstore.net link",
+        "description": "Error is show when the current tab is not a Hackstore.net link"
+    },
+    "currentTabIsNotValidOptions": {
+        "message": "<li>Verify the link is like this <strong>hackshort.me</strong></li>",
+        "description": "Options maybe can help for found the correct link of download"
+    },
+    "linkFound": {
+        "message": "Short link",
+        "description": "Message when a short link is found"
+    },
+    "linkNotFound": {
+        "message": "Short link not found",
+        "description": "Error when a short link is not found"
+    },
+    "linkNotFoundOptions": {
+        "message": "<li>Maybe is for the page is not full loaded</li>",
+        "description": "Options maybe can help with the error"
+    },
+    "linkDecryptError": {
+        "message": "The link could not be decrypted",
+        "description": "Error that appears when the link could not be decrypted"
+    }
+}

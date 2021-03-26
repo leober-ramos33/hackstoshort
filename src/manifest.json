@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+
+    "name": "Hackstoshort",
+    "description": "Generar enlaces directos a las descargas de Hackstore.net",
+    "version": "1.0.0",
+    "author": "Leober Ramos",
+    "homepage_url": "https://github.com/yonaikerlol/hackstoshort",
+
+    "offline_enabled": false,
+
+    "content_security_policy": "script-src 'self'; img-src 'self'; style-src 'self'; object-src 'self'",
+
+    "default_locale": "es",
+
+    "icons": {
+        "128": "icons/128.png",
+        "16": "icons/16.png",
+        "48": "icons/48.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/16.png",
+            "19": "icons/19.png",
+            "32": "icons/32.png",
+            "38": "icons/38.png"
+        },
+        "default_title": "Hackstoshort",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": ["activeTab"]
+}

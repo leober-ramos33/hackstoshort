@@ -1,0 +1,61 @@
+{
+    "name": "hackstoshort",
+    "version": "1.0.0",
+    "description": "Generar enlaces directos a las descargas de Hackstore.net",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yonaikerlol/hackstoshort.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yonaikerlol/hackstoshort/issues"
+    },
+    "homepage": "https://github.com/yonaikerlol/hackstoshort#readme",
+    "scripts": {
+        "format": "prettier --write .",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "build": "parcel build src/manifest.json --no-content-hash --no-source-maps --detailed-report 0 --dist-dir dist",
+        "watch": "parcel watch src/manifest.json --dist-dir dist --no-hmr"
+    },
+    "keywords": [
+        "hackstore.net",
+        "skip ads",
+        "saltar publicidad"
+    ],
+    "author": "Leober Ramos <leober.ramos33@gmail.com> (https://github.com/yonaikerlol)",
+    "license": "MIT",
+    "webExt": {
+        "sourceDir": "dist"
+    },
+    "browserslist": {
+        "production": [
+            ">0.5%",
+            "last 2 versions",
+            "Firefox ESR",
+            "not dead"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.13.10",
+        "@parcel/config-webextension": "^2.0.0-nightly.2220",
+        "@parcel/optimizer-cssnano": "^2.0.0-nightly.599",
+        "@parcel/optimizer-htmlnano": "^2.0.0-nightly.599",
+        "@parcel/packager-css": "^2.0.0-nightly.599",
+        "@parcel/packager-html": "^2.0.0-nightly.599",
+        "@parcel/transformer-css": "^2.0.0-nightly.599",
+        "@parcel/transformer-html": "^2.0.0-nightly.598",
+        "@parcel/transformer-postcss": "^2.0.0-nightly.599",
+        "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
+        "@parcel/transformer-webextension": "^2.0.0-nightly.2220",
+        "autoprefixer": "^10.2.5",
+        "parcel": "^2.0.0-nightly.596",
+        "prettier": "^2.2.1",
+        "webextension-polyfill": "^0.7.0"
+    }
+}

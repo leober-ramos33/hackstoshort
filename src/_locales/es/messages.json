@@ -1,0 +1,30 @@
+{
+    "extensionInfo": {
+        "message": "Generar <strong>enlaces directos</strong> a las descargas",
+        "description": "Información de la extension"
+    },
+    "currentTabIsNotValid": {
+        "message": "No estás en un enlace de descarga de Hackstore.net",
+        "description": "Error que se muestra cuando no te encuentras en un enlace de descarga de Hackstore.net"
+    },
+    "currentTabIsNotValidOptions": {
+        "message": "<li>Verifica que el enlace en donde te encuentres sea de <strong>hackshort.me</strong></li>",
+        "description": "Opciones que pueden ayudar a encontrar un enleace correcto de descarga"
+    },
+    "linkFound": {
+        "message": "Enlace",
+        "description": "Mensaje que se muestra cuando el enlace corto es generado"
+    },
+    "linkNotFound": {
+        "message": "No se ha podido encontrar el enlace",
+        "description": "Error que se muestra cuando el enlace corto no pudo ser generado"
+    },
+    "linkNotFoundOptions": {
+        "message": "<li>Puede ser por que la página aún no este cargada correctamente</li>",
+        "description": "Opciones que pueden ayudar a solucionar el error"
+    },
+    "linkDecryptError": {
+        "message": "El enlace no pudo ser desencriptado",
+        "description": "Error que aparece cuando el enlace no pudo ser desencriptado"
+    }
+}
