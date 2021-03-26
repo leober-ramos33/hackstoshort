@@ -2,11 +2,11 @@ name: Continuous Delivery
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "v*"
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,5 +28,48 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
+      - name: Get the tag version
+        id: release_info
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+
+      - name: Update extension version in manifest.json
+        run: npx dot-json@1 src/manifest.json version ${{ steps.release_info.outputs.VERSION }}
+
       - name: Build extension
-        run: npm run build
+        run: |
+          npm run build
+          cd dist
+
+          zip -r ../hackstoshort_${{ steps.release_info.outputs.VERSION }}.chromium.zip *
+          zip -r ../hackstoshort_${{ steps.release_info.outputs.VERSION }}.firefox.xpi *
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.release_info.outputs.VERSION }}
+          release_name: ${{ steps.release_info.outputs.VERSION }}
+          draft: false
+          prerelease: ${{ contains(github.ref, 'rc') }}
+
+      - name: Upload Chromium package
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: hackstoshort_${{ steps.release_info.outputs.VERSION }}.chromium.zip
+          asset_name: hackstoshort_${{ steps.release_info.outputs.VERSION }}.chromium.zip
+          asset_content_type: application/zip
+
+      - name: Upload Firefox package
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: hackstoshort_${{ steps.release_info.outputs.VERSION }}.firefox.xpi
+          asset_name: hackstoshort_${{ steps.release_info.outputs.VERSION }}.firefox.xpi
+          asset_content_type: application/zip
