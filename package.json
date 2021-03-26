@@ -52,7 +52,7 @@
         "@parcel/transformer-html": "^2.0.0-nightly.598",
         "@parcel/transformer-postcss": "^2.0.0-nightly.599",
         "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
-        "@parcel/transformer-webextension": "^2.0.0-nightly.2220",
+        "@parcel/transformer-webextension": "^2.0.0-nightly.2255",
         "autoprefixer": "^10.2.5",
         "parcel": "^2.0.0-nightly.596",
         "prettier": "^2.2.1",
