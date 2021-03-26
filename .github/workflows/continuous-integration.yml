@@ -31,7 +31,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Apply formatting changes
+          commit_message: "style: Prettier formatting changes"
           branch: ${{ github.head_ref }}
 
   test:
