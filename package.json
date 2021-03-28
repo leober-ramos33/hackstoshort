@@ -13,8 +13,6 @@
     "homepage": "https://github.com/yonaikerlol/hackstoshort#readme",
     "scripts": {
         "format": "prettier --write .",
-        "test": "jest",
-        "test:watch": "jest --watch",
         "build": "parcel build src/manifest.json --no-content-hash --no-source-maps --detailed-report 0 --dist-dir dist",
         "watch": "parcel watch src/manifest.json --dist-dir dist --no-hmr"
     },
@@ -30,15 +28,12 @@
     },
     "browserslist": {
         "production": [
-            ">0.5%",
-            "last 2 versions",
-            "Firefox ESR",
-            "not dead"
+            "last 10 chrome versions",
+            "last 10 firefox versions"
         ],
         "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
+            "last 1 chrome versions",
+            "last 1 firefox versions"
         ]
     },
     "devDependencies": {
