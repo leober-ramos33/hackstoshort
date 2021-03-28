@@ -29,7 +29,6 @@ Desde ya me abstengo de cualquier uso que se le de a esta extensión, no intento
 
 -   [Parcel.js](https://parceljs.org/)
 -   [webextension-polyfill](https://github.com/mozilla/webextension-polyfill)
--   [Jest](https://jestjs.io/)
 -   [GibberishAES](https://github.com/mdp/gibberish-aes)
 
 ## Compilación
@@ -52,12 +51,6 @@ En caso de que quieras desarrollar para el proyecto, puedes utilizar el siguient
 
 ```bash
 npm run watch
-```
-
-Si quieres testear la aplicación puedes ejecutar esto:
-
-```
-npm run test
 ```
 
 ## Licencia
