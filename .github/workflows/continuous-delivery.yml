@@ -33,7 +33,8 @@ jobs:
         run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
 
       - name: Update extension version in manifest.json
-        run: npx dot-json@1 src/manifest.json version ${{ steps.release_info.outputs.VERSION }}
+        run: |
+          npx dot-json@1 src/manifest.json version $(echo ${{ steps.release_info.outputs.VERSION }} | sed 's/^v//g')
 
       - name: Build extension
         run: |
