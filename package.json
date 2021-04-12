@@ -39,7 +39,7 @@
     "devDependencies": {
         "@babel/plugin-transform-runtime": "^7.13.10",
         "@parcel/config-webextension": "^2.0.0-nightly.2220",
-        "@parcel/optimizer-cssnano": "^2.0.0-nightly.599",
+        "@parcel/optimizer-cssnano": "^2.0.0-nightly.639",
         "@parcel/optimizer-htmlnano": "^2.0.0-nightly.599",
         "@parcel/packager-css": "^2.0.0-nightly.599",
         "@parcel/packager-html": "^2.0.0-nightly.599",
