@@ -41,7 +41,7 @@
         "@parcel/config-webextension": "^2.0.0-nightly.2220",
         "@parcel/optimizer-cssnano": "^2.0.0-nightly.599",
         "@parcel/optimizer-htmlnano": "^2.0.0-nightly.599",
-        "@parcel/packager-css": "^2.0.0-nightly.599",
+        "@parcel/packager-css": "^2.0.0-nightly.673",
         "@parcel/packager-html": "^2.0.0-nightly.599",
         "@parcel/transformer-css": "^2.0.0-nightly.599",
         "@parcel/transformer-html": "^2.0.0-nightly.598",
