@@ -44,7 +44,7 @@
         "@parcel/packager-css": "^2.0.0-nightly.599",
         "@parcel/packager-html": "^2.0.0-nightly.599",
         "@parcel/transformer-css": "^2.0.0-nightly.599",
-        "@parcel/transformer-html": "^2.0.0-nightly.598",
+        "@parcel/transformer-html": "^2.0.0-rc.0",
         "@parcel/transformer-postcss": "^2.0.0-nightly.599",
         "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
         "@parcel/transformer-webextension": "^2.0.0-nightly.2220",
