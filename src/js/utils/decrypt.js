@@ -10,7 +10,7 @@ import GibberishAES from "../vendor/gibberish-aes/gibberish-aes-1.0.0.min";
 export function decryptLink(link) {
     const KEY = "fee631d2cffda38a78b96ee6d2dfb43a"; // Key for AES decryption
     const embedScriptRegexp = /link_out = "(\w+)";/;
-    const hackstoreOutRegexp = /https?:\/\/hackstore\.link\/\w+\/?/;
+    const hackstoreOutRegexp = /https?:\/\/(f\.)?hackstore\.link\/\w+\/?/;
 
     // Verify if the passed argument is the embed script from the browser, otherwise choose the link passed
     const encodedLink = embedScriptRegexp.test(link)
