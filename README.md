@@ -13,7 +13,7 @@ Solo debes de abrir un enlace de descarga en el que quieras saltar la publicidad
 
 ![Hackstore.net links](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackstore.net-links.png)
 
-Esto te llevara a un sitio que tenga por dominio: `hackshort.me` y lucira como este:
+Esto te llevara a un sitio que tenga por dominio: `hackshort.me` y lucirá como este:
 
 ![Hackshort.me](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackshort.me.png)
 
