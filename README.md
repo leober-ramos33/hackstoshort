@@ -1,4 +1,4 @@
-Esta extensión ya no funciona por qué el sitio de Hackstore.net esta fuera del aire debido a una denuncia de Copyright. Ahora este repositorio esta archivado.
+**Esta extensión ya no funciona por qué el sitio de Hackstore.net esta fuera del aire debido a una denuncia de Copyright**.
 
 <p align="center">
     <img
