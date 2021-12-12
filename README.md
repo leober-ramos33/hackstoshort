@@ -1,3 +1,5 @@
+Esta extensión ya no funciona por qué el sitio de Hackstore.net esta fuera del aire debido a una denuncia de Copyright. Ahora este repositorio esta archivado.
+
 <p align="center">
     <img
         alt="Hackstoshort"
