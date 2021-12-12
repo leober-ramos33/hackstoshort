@@ -41,6 +41,6 @@
         "autoprefixer": "^10.2.5",
         "parcel": "^2.0.0-nightly.596",
         "prettier": "^2.2.1",
-        "webextension-polyfill": "^0.7.0"
+        "webextension-polyfill": "^0.8.0"
     }
 }
