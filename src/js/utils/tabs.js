@@ -22,7 +22,7 @@ export async function getCurrentTab() {
  */
 export async function currentTabIsValid() {
     const currentTab = await getCurrentTab();
-    const regexp = /https?:\/\/hackshort.me/;
+    const regexp = /https?:\/\/(hackshort|acortalink).me|/;
 
     if (currentTab.url.match(regexp) !== null) {
         return true;

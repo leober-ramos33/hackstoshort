@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "Hackstoshort",
-    "description": "Generar enlaces directos a las descargas de Hackstore.net",
-    "version": "1.0.0",
+    "description": "Generar enlaces directos a las descargas de Hackstore",
+    "version": "1.0.1",
     "author": "Leober Ramos",
     "homepage_url": "https://github.com/yonaikerlol/hackstoshort",
 

@@ -1,5 +1,3 @@
-**Esta extensión ya no funciona por qué el sitio de Hackstore.net esta fuera del aire debido a una denuncia de Copyright**.
-
 <p align="center">
     <img
         alt="Hackstoshort"
@@ -7,7 +5,7 @@
     />
 </p>
 
-Esta es una extensión hecha para saltar los anuncios que se encuentran en los enlaces de descarga de [Hackstore.net](https://hackstore.net).
+Esta es una extensión hecha para saltar los anuncios que se encuentran en los enlaces de descarga de [Hackstore](https://hackstore.ac).
 
 ## ¿Cómo usarlo?
 
@@ -15,7 +13,7 @@ Solo debes de abrir un enlace de descarga en el que quieras saltar la publicidad
 
 ![Hackstore.net links](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackstore.net-links.png)
 
-Esto te llevara a un sitio que tenga por dominio: `hackshort.me` y lucirá como este:
+Esto te llevara a un sitio que tenga por dominio: `acortalink.me` o `hackshort.me` y lucirá como este:
 
 ![Hackshort.me](https://raw.githubusercontent.com/yonaikerlol/hackstoshort/master/docs/hackshort.me.png)
 

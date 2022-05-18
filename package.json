@@ -1,7 +1,7 @@
 {
     "name": "hackstoshort",
-    "version": "1.0.0",
-    "description": "Generar enlaces directos a las descargas de Hackstore.net",
+    "version": "1.0.1",
+    "description": "Generar enlaces directos a las descargas de Hackstore",
     "private": true,
     "repository": {
         "type": "git",
